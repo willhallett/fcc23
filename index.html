@@ -1,53 +1,257 @@
-<!DOCTYPE html> 
-<html lang="en">
+<!DOCTYPE html>
+<html>
     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content ="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <style>
-            #style1 {
-                border: 1px dotted black;
-                padding: 30px;
-                background: lightgray;
-                background-clip: content-box;
-            }
-            
-            #style2 {
-                border: 1px dotted black;
-                padding: 30px;
-                background: lightgray;
-                background-clip: content-box;
-            }
-        </style>
-    </head>
-    <body>
-        <p>
-            Fordham University, Lincoln Center 
-        </p>
-        <p> New Media and Digital Design</p>
-        <p> NMDD 3010, Creative Coding</p>
-        <p> Mondays 6pm to 9:50pm </p>
-        <p> Prof. Will Hallett</p>
-        <p>
-            <div id="style1">
-                <p>first paragraph
-                    </p>
-                <p>
-                week 1 </p>
-                <p>
-                week 2 </p>
-                <p> week 3  </p>
-                <p> week 4  </p>
-        </div> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
         
-        <p>
-        <div id="style2">
-            <p> dogs toes 
-            </p>
-            <p> final projects  </p>
-            <p> there should be a million pixels on the project </p>
+        <style>
+        .slide {
+
+            width: 400px;
+            height: 370px;
+            padding: 12px;
+            box-sizing: border-box;
+            margin-top: 0px;
+            background-color: white;
+            font-size: 13px;
+            font-family: times new roman;
+            
+}</style>
+        
+         <style>
+        .slide2 {
+
+            width: 400px;
+            height: 10px;
+            padding: 12px;
+            box-sizing: border-box;
+            margin-top: 0px;
+            background-color: white;
+            font-size: 13px;
+            font-family: times new roman;
+            
+}</style>
+                <style>
+        .slide3 {
+
+            width: 400px;
+            height: 70px;
+            padding: 12px;
+            box-sizing: border-box;
+            margin-top: 0px;
+            background-color: white;
+            font-size: 13px;
+            font-family: times new roman;
+            
+}</style>
+                <style>
+        .slide4 {
+
+            width: 400px;
+            height: 220px;
+            padding: 12px;
+            box-sizing: border-box;
+            margin-top: 0px;
+            background-color: white;
+            font-size: 13px;
+            font-family: times new roman;
+            
+}</style>
+        <style>
+        .slideHead {
+
+            width: 400px;
+            height: 23px;
+            padding: 5px;
+            box-sizing: border-box;
+            margin-top: 2px;
+            background-color: white;
+            font-size: 24px;
+            font-family: helvetica;
+            
+}</style>
+        <style>
+        .parallaxIntro {
+            background-image: url("https://wallpaperaccess.com/full/1336602.jpg");
+            
+            min-height: 1000px;
+
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: repeat;
+            background-size: contain;
+
+            }
+        }
+        </style>
+        
+        <style>
+        .parallax1 {
+            background-image: url("https://media.giphy.com/media/mQUV5wQUxyZgI/giphy.gif");
+            
+            min-height: 500px;
+            
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        </style>
+        
+        <style>
+        .parallax2 {
+            background-image: url("https://media.giphy.com/media/3o7abIxvz5KRZBItVK/giphy.gif");
+            
+            min-height: 500px;
+            
+            background-attachment: fixed;
+            background-position: bottom;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        </style>
+        
+        <style>
+        .parallax3 {
+            background-image: url("https://media.giphy.com/media/tXlpbXfu7e2Pu/giphy.gif");
+            
+            min-height: 500px;
+            
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        </style>
+        
+        <style>
+        .parallax4 {
+            background-image: url("https://media.giphy.com/media/Rd8mDiihpkFm5GgCqR/giphy.gif");
+            
+            min-height: 500px;
+            
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        </style>    
+    </head>
+    
+    <body>
+
+        <div class = "parallaxIntro">
+        
+        <div style = "font-family: helvetica; font-size: 72px; color:white;">
+            <p> NMDD 3150
+                <br> 
+                Creative Coding
+            </div>
+        <div style = "font-family: helvetica; font-size: 24px; color:white; padding: 20px">
+            <p> Fordham, Lincoln Center
+                <br>
+                New Media and Digital Design Department
+                <br>
+                <br>
+                Sec. 1 Monday 6:00pm - 8:45pm
+                <br> 
+                Sec. 2 Tuesday 2:30pm - 5:15pm
+                <br>
+                Leon Lowenstein Bldg. SL24A
+                <br>
+                Prof. Will Hallett
+                
+            </div>
         </div>
         
+        
+        <div class = "parallax1">
+            <div class = "slideHead">
+                CODING WORKSHOP
+        </div>
+        
+            <div class = "slide">
+
+                
+                <p> 
+                    Reading: Karl Marx, Capital: Volume 1 (chapters 1-6; 15.1)
+                <p>
+                Supporting Readings: Michael Heinrich, How to Read Capital (ch. 1-3); David Hunter, Essentials of Discrete Mathematics (ch 1.1, 4.5, 5.1); Earl Swokoski, Fundamentals of Algebra and Trigonometry (ch 1.1-1.4); 
+                <p>
+                1/24 Variables; Capital, ch. 1
+                <br> <br>
+                1/31 Logic; Capital, ch. 2
+                <br> <br>
+                2/7 Loops; Capital, ch. 3
+                <br> <br>
+                2/14 Arrays; Capital, ch. 4
+                <br> <br>
+                2/21 No class, Presidents day
+                <br><br>
+                2/28 Algorithms; Capital, ch. 5-6
+                <br> <br>
+                2/28 Objects; Capital, ch. 15.1
+
+            </div>
+        </div>
+        
+            
+        
+        <div class = "parallax2">
+            <div class = "slideHead">
+            MIDTERM EXAM
+            </div>
+        <div class = "slide3">
+            <p> 3/6 Exam; Short essay and code questions
+        </div>
+        </div>
+        
+        <div class = "parallax3">
+        
+        <div class = "slideHead">
+            PROJECT WORKSHOP
+            </div>
+        <div class = "slide">
+            
+                
+                <p> Reading: Alexander Galloway, Uncomputable (ch. 2-4); Jose Sanchez, Architecture for the Commons (ch. 4); George Stiny, Calculating Coleridge (ch. 1)
+                <p>
+                Supporting Readings: David Hunter, Essentials of Discrete Mathematics (ch 5.1 - 5.4); Matthew Cook, "Universality in Elementary Cellular Automata"
+                <p>
+                3/13 No class, Spring break
+                <br><br>
+                3/20 Interaction; Galloway, ch. 2
+                <br> <br>
+                3/27 Interfaces; Galloway, ch. 3
+                <br> <br>
+                4/03 Cellular Automata 1; Galloway, ch. 4
+                <br> <br>
+                4/10 No class; Easter break
+                <br> <br>
+                4/17 Cellular Automata 2; Sanchez, ch. 3
+                <br> <br>
+                4/24 Cellular Automata 3; Stiny, ch. 1
+       
+        </div>
+        </div>
+        
+        <div class = "parallax4">
+            
+        <div class = "slideHead">
+            FINAL PROJECT
+            </div>
+        <div class = "slide4">
+        
+            <p> 
+            Readings: Mckenzie Wark, Hacker Manifesto; Laboria Cubonix, Xenofeminist Manifesto; Donna Haraway, Cyborg Manifesto
+                <br><br>
+            Supporting Readings: Bodily and Ventura, "Open Computational Creativity Problems in Computational Theory"
+                <br><br>
+            5/01 Github; Wark, Hacker Manifesto
+            <br><br>
+            5/08 Documentation; Cubonix, Xenofeminist Manifesto 
+            <br><br>
+            5/15 Crit (location TBD); Haraway, Cyborg Manifesto
+        </div>
+        </div>
     </body>
 </html>
